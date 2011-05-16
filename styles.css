@@ -61,7 +61,7 @@ visibility: hidden;
 *:first-child+html .clearfix {min-height: 1px;}
 
 body {
-	border: 1px solid #efefef;
+	/*border: 1px solid #efefef;*/
 	font-family: "Trebuchet MS", "Tahoma", sans-serif;
 	font-size: 1.0em;
 	letter-spacing: -1px;
@@ -172,7 +172,7 @@ a:visited {
 .work-item,
 .external-item,
 .tech-item {
-	border-left: 10px solid #888;
+	border-left: 1.2em solid #888;
 	margin: 10px 0px 30px 20px;
 	padding: 1px 1px 1px 15px;
 }

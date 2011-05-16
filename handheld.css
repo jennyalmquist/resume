@@ -61,9 +61,9 @@ visibility: hidden;
 *:first-child+html .clearfix {min-height: 1px;}
 
 body {
-	/*border: 1px solid #efefef;*/
+	border: 1px solid #efefef;
 	font-family: "Trebuchet MS", "Tahoma", sans-serif;
-	font-size: 0.8em;
+	font-size: 2.5em;
 	letter-spacing: -1px;
 	margin: 0px;
 	/*width: 100%;*/
@@ -156,10 +156,11 @@ a:visited {
 }
 
 #personal-photo {
-	float: right;
+	display: none;
+	/*float: right;
 	margin: 0px 60px 0px 20px;
 	position: relative;
-	top: -50px;
+	top: -60px;*/
 }
 
 #personal-photo img {
@@ -172,7 +173,7 @@ a:visited {
 .work-item,
 .external-item,
 .tech-item {
-	border-left: 10px solid #888;
+	border-left: 1.3em solid #888;
 	margin: 10px 0px 30px 20px;
 	padding: 1px 1px 1px 15px;
 }
@@ -229,18 +230,11 @@ a:visited {
 	margin: auto;
 	padding: 4px 0px;
 	text-align: center;
-	width: 60%;
+	width: 40%;
 }
 
 #footer li {
 	display: inline;
 	list-style-type: none;
-}
-
-
-/** Print specific **/
-#content a:link:after, #content a:visited:after {
-   content: " (" attr(href) ") ";
-   font-size: 90%;
 }
 	
