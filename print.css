@@ -65,9 +65,10 @@ body {
 	font-family: "Trebuchet MS", "Tahoma", sans-serif;
 	font-size: 0.8em;
 	letter-spacing: -1px;
-	margin: 0px;
 	/*width: 100%;*/
 	/*width: 750px;*/
+	margin: auto;
+	max-width: 940px;
 }
 
 /** Header styles **/
